@@ -10,3 +10,6 @@ def get_circle_area(radius):
 def get_square_area(side):
      square = side**2
      return square
+ 
+def get_rectangle_area(width,height):
+     
