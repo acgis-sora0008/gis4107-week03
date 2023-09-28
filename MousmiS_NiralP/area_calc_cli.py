@@ -11,7 +11,7 @@ print(get_square_area(2))
 
 print(area_calculator.get_square_area(2))
 
-import area_calculator
+
 
 print(get_rectangle_area(2,3))
 print(width)
