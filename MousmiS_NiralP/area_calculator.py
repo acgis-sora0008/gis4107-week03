@@ -12,4 +12,6 @@ def get_square_area(side):
      return square
  
 def get_rectangle_area(width,height):
+    rectangle = width*height
+    return rectangle
      
