@@ -70,7 +70,7 @@ def acres_to_edge_of_square(acres):
     return edge_length
 
 # Function to get the count of bears
-def get_bear_count():
+def get_bear_count(count):
   """
     Get the count of bears.
 
@@ -79,12 +79,7 @@ def get_bear_count():
 
     Returns:
     int: The count of bears."""
-    # You can implement the logic to count bears here.
-    # The following is a placeholder; replace it with your actual logic.
-    count = 10  
-    return count
-
-
+  return count
    
 
 # Function to convert degrees, minutes, seconds (DMS) to decimal degrees (DD)
@@ -102,10 +97,8 @@ def dms_to_dd(degrees, minutes, seconds):
     Note:
     - The conversion is approximate, and the seconds part may include fractional seconds.
     - Positive values for degrees represent North or East directions; negative values represent South or West directions.'''
-    # Implement the conversion here
-
-    dd = degrees + minutes/60 + seconds/3600
-    return dd
+   dd = int(degrees) +int(minutes)/60 + int(seconds)/3600
+   return dd
 
 
 
